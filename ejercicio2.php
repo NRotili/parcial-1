@@ -1,6 +1,8 @@
 <?php
 
 //Ejercicio 2: Depura el siguiente código para encontrar y corregir el error:
+//Complejidad: BAJA (1 punto)
+
 
 $num1 = 10;
 $num2 = "5";
