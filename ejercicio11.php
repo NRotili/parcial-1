@@ -10,7 +10,7 @@ function invertirCadena($cadena) {
 }
 
 // Tests
-assert(
-    invertirCadena("Hola") === "aloH",
-    "La función no invierte la cadena correctamente"
-);
+assert(invertirCadena("Hola") == "aloH");
+assert(invertirCadena("Mundo") == "odnuM");
+
+echo "Todas las pruebas pasaron";

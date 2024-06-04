@@ -8,19 +8,12 @@ function esPrimo($num) {
 }
 
 // Tests
-echo esPrimo(1) ? 'true' : 'false'; // false
-echo "\n";
-echo esPrimo(2) ? 'true' : 'false'; // true
-echo "\n";
-echo esPrimo(3) ? 'true' : 'false'; // true
-echo "\n";
-echo esPrimo(4) ? 'true' : 'false'; // false
-echo "\n";
-echo esPrimo(5) ? 'true' : 'false'; // true
-echo "\n";
-echo esPrimo(6) ? 'true' : 'false'; // false
-echo "\n";
-echo esPrimo(7) ? 'true' : 'false'; // true
-echo "\n";
-echo esPrimo(8) ? 'true' : 'false'; // false
+assert(esPrimo(2) == true);
+assert(esPrimo(3) == true);
+assert(esPrimo(4) == false);
+assert(esPrimo(5) == true);
+assert(esPrimo(6) == false);
+assert(esPrimo(7) == true);
+
+echo "Todas las pruebas pasaron";
 

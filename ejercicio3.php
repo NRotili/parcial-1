@@ -7,10 +7,9 @@ function esPar($num) {
     // Tu código aquí
 }
 
-// Tests
-echo esPar(1) ? 'true' : 'false'; // false
-echo "\n";
-echo esPar(2) ? 'true' : 'false'; // true
-echo "\n";
-echo esPar(3) ? 'true' : 'false'; // false
-echo "\n";
+assert(esPar(2) == true);
+assert(esPar(3) == false);
+assert(esPar(4) == true);
+assert(esPar(5) == false);
+
+echo "Todas las pruebas pasaron";

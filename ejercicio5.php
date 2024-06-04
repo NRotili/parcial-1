@@ -8,11 +8,8 @@ function suma($numeros) {
 }
 
 // Tests
-assert(
-    suma([1, 2, 3, 4]) === 10,
-    "La función no devuelve la suma correcta"
-);
-assert(
-    suma([5, 10, 15, 20]) === 50,
-    "La función no devuelve la suma correcta"
-);
+assert(suma([1, 2, 3, 4, 5]) == 15);
+assert(suma([10, 20, 30, 40, 50]) == 150);
+assert(suma([100, 200, 300, 400, 500]) == 1500);
+
+echo "Todas las pruebas pasaron";

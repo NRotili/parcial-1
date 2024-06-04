@@ -10,5 +10,9 @@ function encontrarPalabras($cadena, $palabras) {
 }
 
 // Tests
-print_r(encontrarPalabras("Hola Nico sos bienvenido", ["mundo", "Nico"])); // ["Nico"]
-print_r(encontrarPalabras("Hola Nico sos bienvenido", ["Nico", "bienvenido"])); // ["Nico", "bienvenido"]
+assert(encontrarPalabras("Hola mundo, bienvenidos", ["Hola", "bienvenidos"]) == ["Hola", "bienvenidos"]);
+assert(encontrarPalabras("La casa es roja", ["casa", "roja"]) == ["casa", "roja"]);
+assert(encontrarPalabras("La casa es roja", ["azul", "verde"]) == []);
+
+
+echo "Todas las pruebas pasaron";

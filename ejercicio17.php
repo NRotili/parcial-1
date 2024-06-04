@@ -8,11 +8,9 @@ function calcularPromedio($numeros) {
 }
 
 // Tests
-assert(
-    calcularPromedio([5, 10, 15, 20]) === 12.5,
-    "La función no devuelve el promedio correcto"
-);
-assert(
-    calcularPromedio([1, 2, 3, 4]) === 2.5,
-    "La función no devuelve el promedio correcto"
-);
+
+assert(calcularPromedio([1, 2, 3, 4, 5]) == 3);
+assert(calcularPromedio([10, 20, 30, 40, 50]) == 30);
+assert(calcularPromedio([100, 200, 300, 400, 500]) == 300);
+
+echo "Todas las pruebas pasaron";

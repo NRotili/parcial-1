@@ -11,4 +11,8 @@ function contarCaracteres($cadena, $caracter) {
 }
 
 // Tests
-echo contarCaracteres("Hola mundo", "o") . "\n"; // 2
+assert(contarCaracteres("Hola mundo", "o") == 2);
+assert(contarCaracteres("La casa es roja", "a") == 3);
+assert(contarCaracteres("La casa es roja", "z") == 0);
+
+echo "Todas las pruebas pasaron";
