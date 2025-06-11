@@ -5,8 +5,6 @@
 
 function imprimirNumeros[$limite] (
     for {$i = 1; $i <= $limite; $i++} (
-        echo $i;
+        echo $i . "<br>";
     )
 )
-
-imprimirNumeros(5);

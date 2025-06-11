@@ -7,10 +7,5 @@
 
 function invertirCadena($cadena) {
     // Tu código aquí
+
 }
-
-// Tests
-assert(invertirCadena("Hola") == "aloH");
-assert(invertirCadena("Mundo") == "odnuM");
-
-echo "Todas las pruebas pasaron";

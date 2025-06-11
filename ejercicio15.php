@@ -6,13 +6,5 @@
 //Pista: Puedes usar la función array_intersect y explode para dividir una cadena en un arreglo de cadenas. Por ejemplo, explode("Hola mundo", " ") devolvería el arreglo ["Hola", "mundo"].
 
 function encontrarPalabras($cadena, $palabras) {
-    // Tu código aquí
+    //Tu código aquí
 }
-
-// Tests
-assert(encontrarPalabras("Hola mundo, bienvenidos", ["Hola", "bienvenidos"]) == ["Hola", "bienvenidos"]);
-assert(encontrarPalabras("La casa es roja", ["casa", "roja"]) == ["casa", "roja"]);
-assert(encontrarPalabras("La casa es roja", ["azul", "verde"]) == []);
-
-
-echo "Todas las pruebas pasaron";

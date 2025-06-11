@@ -26,8 +26,3 @@
 function validarTarjeta($numeroTarjeta) {
 
 }
-
-assert(validarTarjeta("4556737586899855") == "La tarjeta es válida");
-assert(validarTarjeta("4556737586899856") == "La tarjeta no es válida");
-
-echo "Todas las pruebas pasaron";

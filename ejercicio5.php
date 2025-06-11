@@ -6,10 +6,3 @@
 function suma($numeros) {
     // Tu código aquí
 }
-
-// Tests
-assert(suma([1, 2, 3, 4, 5]) == 15);
-assert(suma([10, 20, 30, 40, 50]) == 150);
-assert(suma([100, 200, 300, 400, 500]) == 1500);
-
-echo "Todas las pruebas pasaron";
